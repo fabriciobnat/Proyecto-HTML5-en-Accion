@@ -1,0 +1,21 @@
+{
+	"color": "#ff3e3363",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1695758163.json",
+	"mirror_portraits": false,
+	"name": "Lou Montulli",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": -100,
+	"offset_y": -250,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://Multimedia/Personajes/LouMontullifotoperfil.png"
+		}
+	],
+	"scale": 5,
+	"theme": ""
+}

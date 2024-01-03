@@ -1,0 +1,25 @@
+{
+	"color": "#ff8e0a9c",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1695329489.json",
+	"mirror_portraits": false,
+	"name": "Tina",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": -100,
+	"offset_y": -250,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://Multimedia/Personajes/Tinafotoperfil2.png"
+		},
+		{
+			"name": "Pregunta",
+			"path": "res://Multimedia/Personajes/Tinafotoperfil.png"
+		}
+	],
+	"scale": 10,
+	"theme": ""
+}

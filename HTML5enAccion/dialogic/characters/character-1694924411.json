@@ -1,0 +1,97 @@
+{
+	"color": "#ff366333",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1694924411.json",
+	"mirror_portraits": false,
+	"name": "PC4",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": -100,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://Multimedia/Imagenes/FondosPCs/PantallasPC.png"
+		},
+		{
+			"name": "pc4",
+			"path": "res://Multimedia/Imagenes/FondosPCs/PresentacionPC3/pc3.png"
+		},
+		{
+			"name": "pc4-1",
+			"path": "res://Multimedia/Imagenes/FondosPCs/PresentacionPC3/pc3-1.png"
+		},
+		{
+			"name": "pc4-2",
+			"path": "res://Multimedia/Imagenes/FondosPCs/PresentacionPC3/pc3-2.png"
+		},
+		{
+			"name": "pc4-3",
+			"path": "res://Multimedia/Imagenes/FondosPCs/PresentacionPC3/pc3-3.png"
+		},
+		{
+			"name": "PantallasPC_Cuarto1",
+			"path": "res://Multimedia/Imagenes/FondosPCs/PantallasPC_Cuarto1.png"
+		},
+		{
+			"name": "Cuarto1pc-4-1",
+			"path": "res://Multimedia/Imagenes/FondosPCs/CONTENIDO_HTML5/Tema4T_Parrafos/1.png"
+		},
+		{
+			"name": "Cuarto1pc-4-2",
+			"path": "res://Multimedia/Imagenes/FondosPCs/CONTENIDO_HTML5/Tema4T_Parrafos/2.png"
+		},
+		{
+			"name": "PantallasPC_Cuarto2",
+			"path": "res://Multimedia/Imagenes/FondosPCs/PantallasPC_Cuarto2.png"
+		},
+		{
+			"name": "Cuarto2pc-4-1",
+			"path": "res://Multimedia/Imagenes/FondosPCs/CONTENIDO_HTML5/Tema8T_Hipervinculos/1.png"
+		},
+		{
+			"name": "Cuarto2pc-4-2",
+			"path": "res://Multimedia/Imagenes/FondosPCs/CONTENIDO_HTML5/Tema8T_Hipervinculos/2.png"
+		},
+		{
+			"name": "Cuarto2pc-4-3",
+			"path": "res://Multimedia/Imagenes/FondosPCs/CONTENIDO_HTML5/Tema8T_Hipervinculos/3.png"
+		},
+		{
+			"name": "Cuarto2pc-4-4",
+			"path": "res://Multimedia/Imagenes/FondosPCs/CONTENIDO_HTML5/Tema8T_Hipervinculos/4.png"
+		},
+		{
+			"name": "Cuarto2pc-4-5",
+			"path": "res://Multimedia/Imagenes/FondosPCs/CONTENIDO_HTML5/Tema8T_Hipervinculos/5.png"
+		},
+		{
+			"name": "Cuarto2pc-4-6",
+			"path": "res://Multimedia/Imagenes/FondosPCs/CONTENIDO_HTML5/Tema8T_Hipervinculos/6.png"
+		},
+		{
+			"name": "Cuarto2pc-4-7",
+			"path": "res://Multimedia/Imagenes/FondosPCs/CONTENIDO_HTML5/Tema8T_Hipervinculos/7.png"
+		},
+		{
+			"name": "Cuarto2pc-4-8",
+			"path": "res://Multimedia/Imagenes/FondosPCs/CONTENIDO_HTML5/Tema8T_Hipervinculos/8.png"
+		},
+		{
+			"name": "PantallasPC_Cuarto3",
+			"path": "res://Multimedia/Imagenes/FondosPCs/PantallasPC_Cuarto3.png"
+		},
+		{
+			"name": "Cuarto3pc-4-1",
+			"path": "res://Multimedia/Imagenes/FondosPCs/CONTENIDO_HTML5/Tema12T_Comentarios/1.png"
+		},
+		{
+			"name": "Cuarto3pc-4-2",
+			"path": "res://Multimedia/Imagenes/FondosPCs/CONTENIDO_HTML5/Tema12T_Comentarios/2.png"
+		}
+	],
+	"scale": 50,
+	"theme": ""
+}

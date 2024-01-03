@@ -1,0 +1,51 @@
+{
+	"events": [
+		{
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_001",
+			"portrait": "Tim_person_papers",
+			"text": "Hola que hace la oruerta se bloqueo!"
+		},
+		{
+			"character": "character-1691694393.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Revisaste todas las computadoras?"
+		},
+		{
+			"choice": "SI",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"change_scene": "res://Escenas/Mundos/PurbasCuartos/PruebaPrimerCuarto.tscn",
+			"event_id": "dialogic_041"
+		},
+		{
+			"choice": "No",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1691694393.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Revisa toda la información de las computadoras para tener el conocimiento para poder salir."
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5",
+		"file": "timeline-1695135073.json",
+		"name": "BloqueoPrimerCuarto"
+	}
+}

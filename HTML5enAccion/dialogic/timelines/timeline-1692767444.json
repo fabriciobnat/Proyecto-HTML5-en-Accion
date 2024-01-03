@@ -1,0 +1,129 @@
+{
+	"events": [
+		{
+			"animation": "[Default]",
+			"animation_length": 0.5,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1692767466.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 1
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1692816858.cfg"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Hola, ¿cómo estás?"
+		},
+		{
+			"choice": "Bien, gracias",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Me alegra escuchar eso. ¡Mantén esa actitud positiva mientras exploras este emocionante mundo virtual! Si necesitas ayuda en tu travesía, no dudes en buscar consejo. ¡Diviértete y sigue adelante!"
+		},
+		{
+			"choice": "No muy bien",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Entiendo que a veces las cosas pueden ser difíciles, pero recuerda que cada desafío es una oportunidad para crecer. ¡No te rindas! A medida que avanzas en el juego, encontrarás soluciones y superarás obstáculos. "
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1692767466.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 1
+		},
+		{
+			"character": "character-1692767466.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Soy Robert Cailliau científico del CERN (Organización Europea para la Investigación Nuclear)"
+		},
+		{
+			"character": "character-1692767466.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Junto a Tim Berners-Lee, trabajé en el CERN y colaboré en el desarrollo de la World Wide Web. Contribuí de manera significativa a la especificación de HTML."
+		},
+		{
+			"character": "character-1692767466.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Bien, llegaste aquí porque preferiste ser un aprendiz de HTML5. Entonces, debes comenzar revisando el contenido de las computadoras que están a tu alrededor. Inicia con la que está ubicada a tu izquierda ¡Suerte!"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1692767466.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5",
+		"file": "timeline-1692767444.json",
+		"name": "timeline-npc-Cientifico"
+	}
+}

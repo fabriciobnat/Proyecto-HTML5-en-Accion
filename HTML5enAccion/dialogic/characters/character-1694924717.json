@@ -1,0 +1,53 @@
+{
+	"color": "#ff366333",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1694924717.json",
+	"mirror_portraits": false,
+	"name": "PC5",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": -100,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://Multimedia/Imagenes/FondosPCs/PantallasPC.png"
+		},
+		{
+			"name": "pc5",
+			"path": "res://Multimedia/Imagenes/FondosPCs/PresentacionPC4/pc4.png"
+		},
+		{
+			"name": "pc5-1",
+			"path": "res://Multimedia/Imagenes/FondosPCs/PresentacionPC4/pc4-1.png"
+		},
+		{
+			"name": "pc5-2",
+			"path": "res://Multimedia/Imagenes/FondosPCs/PresentacionPC4/pc4-2.png"
+		},
+		{
+			"name": "pc5-3",
+			"path": "res://Multimedia/Imagenes/FondosPCs/PresentacionPC4/pc4-3.png"
+		},
+		{
+			"name": "pc5-4",
+			"path": "res://Multimedia/Imagenes/FondosPCs/PresentacionPC4/pc4-4.png"
+		},
+		{
+			"name": "pc5-5",
+			"path": "res://Multimedia/Imagenes/FondosPCs/PresentacionPC4/pc4-5.png"
+		},
+		{
+			"name": "pc5-6",
+			"path": "res://Multimedia/Imagenes/FondosPCs/PresentacionPC4/pc4-6.png"
+		},
+		{
+			"name": "pc5-7",
+			"path": "res://Multimedia/Imagenes/FondosPCs/PresentacionPC4/pc4-7.png"
+		}
+	],
+	"scale": 50,
+	"theme": ""
+}

@@ -1,0 +1,351 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1695488777.cfg"
+		},
+		{
+			"animation": "2-fade_in_up.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1695487091.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1695487091.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Saludos nuevamente, Tim Berners-Lee! "
+		},
+		{
+			"character": "character-1695487091.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hemos vuelto a encontrarnos en esta tercera puerta mágica. "
+		},
+		{
+			"character": "character-1695487091.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Como de costumbre, antes de permitirte el acceso, debes responder a dos preguntas."
+		},
+		{
+			"animation": "5-fade_out_down.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1695487091.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"animation": "2-fade_in_up.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Entiendo, Rudeus. Estoy listo para responder a las preguntas. Adelante."
+		},
+		{
+			"animation": "5-fade_out_down.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"animation": "2-fade_in_up.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1695487091.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "Regresar4"
+		},
+		{
+			"character": "character-1695487091.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Muy bien, la primera pregunta es:"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "¿Cuál es el elemento HTML5 utilizado para marcar el texto como una cita o una referencia?"
+		},
+		{
+			"choice": "A) <quote>",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Multimedia/Audios/wrong.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1695487091.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "La respuesta es incorrecta!"
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "B) <cite>",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Multimedia/Audios/effect-success.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1695487091.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "La respuesta es correcta!"
+		},
+		{
+			"character": "character-1695487091.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "El elemento <cite> se utiliza en HTML5 para marcar el texto como una cita o una referencia a una fuente externa, como un libro, un artículo o una obra."
+		},
+		{
+			"choice": "C) <italic>",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Multimedia/Audios/wrong.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1695487091.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "La respuesta es incorrecta!"
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1695487091.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Muy bien, la segunda pregunta es:"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "¿Cuál es el elemento HTML5 que se utiliza para crear una lista numerada?"
+		},
+		{
+			"choice": "A) <ul>",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Multimedia/Audios/wrong.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1695487091.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "La respuesta es incorrecta!"
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "B) <ol>",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Multimedia/Audios/effect-success.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1695487091.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "La respuesta es correcta!"
+		},
+		{
+			"character": "character-1695487091.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "El elemento <ol> se utiliza para crear listas numeradas en HTML5."
+		},
+		{
+			"character": "character-1695487091.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Las listas numeradas contienen elementos de lista <li> que se numeran automáticamente."
+		},
+		{
+			"choice": "C) <li>",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Multimedia/Audios/wrong.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1695487091.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "La respuesta es incorrecta!"
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1695487091.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": " ¡Excelente, Tim Berners-Lee!"
+		},
+		{
+			"character": "character-1695487091.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Has demostrado tu conocimiento en este lugar. Puedes continuar hacia la próxima puerta mágica. Que la magia te guíe en tu aventura."
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5",
+		"file": "timeline-1695501046.json",
+		"name": "timeline-npc-DesafioMago3"
+	}
+}

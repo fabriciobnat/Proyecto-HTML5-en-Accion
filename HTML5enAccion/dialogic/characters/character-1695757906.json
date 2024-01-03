@@ -1,0 +1,21 @@
+{
+	"color": "#ff11f6b0",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1695757906.json",
+	"mirror_portraits": false,
+	"name": "Dave Raggett",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": -100,
+	"offset_y": -250,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://Multimedia/Personajes/DaveRaggettfotoperfil.png"
+		}
+	],
+	"scale": 5,
+	"theme": ""
+}

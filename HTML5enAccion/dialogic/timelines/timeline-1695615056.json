@@ -1,0 +1,63 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1695488777.cfg"
+		},
+		{
+			"animation": "2-fade_in_up.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1695487091.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1695487091.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Saludos nuevamente, Tim Berners-Lee! "
+		},
+		{
+			"character": "character-1695487091.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Has llegado tan lejos en tu aventura, y como recompensa por tu perseverancia, te entregaré la llave del último nivel que se encuentra en la cerrajería."
+		},
+		{
+			"character": "character-1695487091.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Esta llave te permitirá acceder a áreas secretas y cerradas en tu camino."
+		},
+		{
+			"character": "character-1695487091.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Úsala sabiamente en tu búsqueda y que te ayude a alcanzar tus objetivos."
+		},
+		{
+			"character": "character-1695487091.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Continúa hacia la siguiente etapa de tu aventura, Tim Berners-Lee. ¡Buena suerte, y que la magia te guíe en tu camino!"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5",
+		"file": "timeline-1695615056.json",
+		"name": "timeline-npc-DesafioMago4"
+	}
+}

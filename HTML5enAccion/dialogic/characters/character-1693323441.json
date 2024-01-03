@@ -1,0 +1,29 @@
+{
+	"color": "#ff39cb30",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1693323441.json",
+	"mirror_portraits": false,
+	"name": "Tim Berners-Lee-",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": -100,
+	"offset_y": -250,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://Multimedia/Personajes/Timfotoperfil.png"
+		},
+		{
+			"name": "Tim_person_papers",
+			"path": "res://Multimedia/Personajes/Timfotoperfil2.png"
+		},
+		{
+			"name": "PC_casa_Tim",
+			"path": "res://Multimedia/Personajes/PCTimiconoperfil.png"
+		}
+	],
+	"scale": 10,
+	"theme": ""
+}

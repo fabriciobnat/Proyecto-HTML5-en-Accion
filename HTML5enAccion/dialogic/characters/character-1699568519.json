@@ -1,0 +1,33 @@
+{
+	"color": "#ffffffff",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1699568519.json",
+	"mirror_portraits": false,
+	"name": "ImagenesReferencia",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": -250,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://Multimedia/Imagenes/MapaCityTim.png"
+		},
+		{
+			"name": "Llavesmundo",
+			"path": "res://Multimedia/Imagenes/Llavesmundo.png"
+		},
+		{
+			"name": "DisketsIconomapa",
+			"path": "res://Multimedia/Imagenes/DisketsIconomapa.png"
+		},
+		{
+			"name": "Laberinto",
+			"path": "res://Multimedia/Imagenes/Laberinto.png"
+		}
+	],
+	"scale": 80,
+	"theme": ""
+}

@@ -1,0 +1,61 @@
+{
+	"color": "#ffffffff",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1695759828.json",
+	"mirror_portraits": false,
+	"name": "Visualización",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 50,
+	"offset_y": -220,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://Multimedia/EjemplosNPCs/ResultadoEjemploNPC1.png"
+		},
+		{
+			"name": "ResultadoEjemploNPC1-1",
+			"path": "res://Multimedia/EjemplosNPCs/ResultadoEjemploNPC1-1.png"
+		},
+		{
+			"name": "ResultadoEjemploNPC2",
+			"path": "res://Multimedia/EjemplosNPCs/ResultadoEjemploNPC2.png"
+		},
+		{
+			"name": "ResultadoEjemploNPC2-2",
+			"path": "res://Multimedia/EjemplosNPCs/ResultadoEjemploNPC2-2.png"
+		},
+		{
+			"name": "ResultadoEjemploNPC3",
+			"path": "res://Multimedia/EjemplosNPCs/ResultadoEjemploNPC3.png"
+		},
+		{
+			"name": "ResultadoEjemploNPC3-3",
+			"path": "res://Multimedia/EjemplosNPCs/ResultadoEjemploNPC3-3.png"
+		},
+		{
+			"name": "ResultadoEjemploNPC4",
+			"path": "res://Multimedia/EjemplosNPCs/ResultadoEjemploNPC4.png"
+		},
+		{
+			"name": "ResultadoEjemploNPC4-4",
+			"path": "res://Multimedia/EjemplosNPCs/ResultadoEjemploNPC4-4.png"
+		},
+		{
+			"name": "ResultadoEjemploNPC5",
+			"path": "res://Multimedia/EjemplosNPCs/ResultadoEjemploNPC5.png"
+		},
+		{
+			"name": "ResultadoEjemploNPC5-5",
+			"path": "res://Multimedia/EjemplosNPCs/ResultadoEjemploNPC5-5.png"
+		},
+		{
+			"name": "ResultadoEjemploNPC6",
+			"path": "res://Multimedia/EjemplosNPCs/ResultadoEjemploNPC6.png"
+		}
+	],
+	"scale": 100,
+	"theme": ""
+}

@@ -1,0 +1,145 @@
+{
+	"color": "#ff366333",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1694734596.json",
+	"mirror_portraits": false,
+	"name": "PC3",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": -100,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://Multimedia/Imagenes/FondosPCs/PantallasPC.png"
+		},
+		{
+			"name": "pc3",
+			"path": "res://Multimedia/Imagenes/FondosPCs/PresentacionPC2/pc2.png"
+		},
+		{
+			"name": "pc3-1",
+			"path": "res://Multimedia/Imagenes/FondosPCs/PresentacionPC2/pc2-1.png"
+		},
+		{
+			"name": "pc3-2",
+			"path": "res://Multimedia/Imagenes/FondosPCs/PresentacionPC2/pc2-2.png"
+		},
+		{
+			"name": "pc3-3",
+			"path": "res://Multimedia/Imagenes/FondosPCs/PresentacionPC2/pc2-3.png"
+		},
+		{
+			"name": "pc3-4",
+			"path": "res://Multimedia/Imagenes/FondosPCs/PresentacionPC2/pc2-4.png"
+		},
+		{
+			"name": "PantallasPC_Cuarto1",
+			"path": "res://Multimedia/Imagenes/FondosPCs/PantallasPC_Cuarto1.png"
+		},
+		{
+			"name": "Cuarto1pc-3-1",
+			"path": "res://Multimedia/Imagenes/FondosPCs/CONTENIDO_HTML5/Tema3T_Encabezados/1.png"
+		},
+		{
+			"name": "Cuarto1pc-3-2",
+			"path": "res://Multimedia/Imagenes/FondosPCs/CONTENIDO_HTML5/Tema3T_Encabezados/2.png"
+		},
+		{
+			"name": "Cuarto1pc-3-3",
+			"path": "res://Multimedia/Imagenes/FondosPCs/CONTENIDO_HTML5/Tema3T_Encabezados/3.png"
+		},
+		{
+			"name": "PantallasPC_Cuarto2",
+			"path": "res://Multimedia/Imagenes/FondosPCs/PantallasPC_Cuarto2.png"
+		},
+		{
+			"name": "Cuarto2pc-3-1",
+			"path": "res://Multimedia/Imagenes/FondosPCs/CONTENIDO_HTML5/Tema7T_Tablas/1.png"
+		},
+		{
+			"name": "Cuarto2pc-3-2",
+			"path": "res://Multimedia/Imagenes/FondosPCs/CONTENIDO_HTML5/Tema7T_Tablas/2.png"
+		},
+		{
+			"name": "Cuarto2pc-3-3",
+			"path": "res://Multimedia/Imagenes/FondosPCs/CONTENIDO_HTML5/Tema7T_Tablas/3.png"
+		},
+		{
+			"name": "Cuarto2pc-3-4",
+			"path": "res://Multimedia/Imagenes/FondosPCs/CONTENIDO_HTML5/Tema7T_Tablas/4.png"
+		},
+		{
+			"name": "Cuarto2pc-3-5",
+			"path": "res://Multimedia/Imagenes/FondosPCs/CONTENIDO_HTML5/Tema7T_Tablas/5.png"
+		},
+		{
+			"name": "Cuarto2pc-3-6",
+			"path": "res://Multimedia/Imagenes/FondosPCs/CONTENIDO_HTML5/Tema7T_Tablas/6.png"
+		},
+		{
+			"name": "Cuarto2pc-3-7",
+			"path": "res://Multimedia/Imagenes/FondosPCs/CONTENIDO_HTML5/Tema7T_Tablas/7.png"
+		},
+		{
+			"name": "Cuarto2pc-3-8",
+			"path": "res://Multimedia/Imagenes/FondosPCs/CONTENIDO_HTML5/Tema7T_Tablas/8.png"
+		},
+		{
+			"name": "Cuarto2pc-3-9",
+			"path": "res://Multimedia/Imagenes/FondosPCs/CONTENIDO_HTML5/Tema7T_Tablas/9.png"
+		},
+		{
+			"name": "Cuarto2pc-3-10",
+			"path": "res://Multimedia/Imagenes/FondosPCs/CONTENIDO_HTML5/Tema7T_Tablas/10.png"
+		},
+		{
+			"name": "PantallasPC_Cuarto3",
+			"path": "res://Multimedia/Imagenes/FondosPCs/PantallasPC_Cuarto3.png"
+		},
+		{
+			"name": "Cuarto3pc-3-1",
+			"path": "res://Multimedia/Imagenes/FondosPCs/CONTENIDO_HTML5/Tema11T_Seccionamiento/1.png"
+		},
+		{
+			"name": "Cuarto3pc-3-2",
+			"path": "res://Multimedia/Imagenes/FondosPCs/CONTENIDO_HTML5/Tema11T_Seccionamiento/2.png"
+		},
+		{
+			"name": "Cuarto3pc-3-3",
+			"path": "res://Multimedia/Imagenes/FondosPCs/CONTENIDO_HTML5/Tema11T_Seccionamiento/3.png"
+		},
+		{
+			"name": "Cuarto3pc-3-4",
+			"path": "res://Multimedia/Imagenes/FondosPCs/CONTENIDO_HTML5/Tema11T_Seccionamiento/4.png"
+		},
+		{
+			"name": "Cuarto3pc-3-5",
+			"path": "res://Multimedia/Imagenes/FondosPCs/CONTENIDO_HTML5/Tema11T_Seccionamiento/5.png"
+		},
+		{
+			"name": "Cuarto3pc-3-6",
+			"path": "res://Multimedia/Imagenes/FondosPCs/CONTENIDO_HTML5/Tema11T_Seccionamiento/6.png"
+		},
+		{
+			"name": "Cuarto3pc-3-7",
+			"path": "res://Multimedia/Imagenes/FondosPCs/CONTENIDO_HTML5/Tema11T_Seccionamiento/7.png"
+		},
+		{
+			"name": "Cuarto3pc-3-8",
+			"path": "res://Multimedia/Imagenes/FondosPCs/CONTENIDO_HTML5/Tema11T_Seccionamiento/8.png"
+		},
+		{
+			"name": "Cuarto3pc-3-9",
+			"path": "res://Multimedia/Imagenes/FondosPCs/CONTENIDO_HTML5/Tema11T_Seccionamiento/9.png"
+		},
+		{
+			"name": "Cuarto3pc-3-10",
+			"path": "res://Multimedia/Imagenes/FondosPCs/CONTENIDO_HTML5/Tema11T_Seccionamiento/10.png"
+		}
+	],
+	"scale": 50,
+	"theme": ""
+}

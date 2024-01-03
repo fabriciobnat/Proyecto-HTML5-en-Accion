@@ -1,0 +1,21 @@
+{
+	"color": "#ff53ad3d",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": true,
+	"id": "character-1691683467.json",
+	"mirror_portraits": false,
+	"name": "Tim Berners-Lee",
+	"nickname": "Tim",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": -200,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://Multimedia/Imagenes/Tim-Berners-Lee-speaker-conferencias-web-e1680604122620-removebg-preview.png"
+		}
+	],
+	"scale": 60,
+	"theme": ""
+}

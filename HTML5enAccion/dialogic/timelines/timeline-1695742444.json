@@ -1,0 +1,351 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1691683502.cfg"
+		},
+		{
+			"animation": "2-fade_in_up.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1695758163.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1695758163.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Saludos, Tim! Espero que te encuentres bien."
+		},
+		{
+			"character": "character-1695758163.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Soy Lou Montulli."
+		},
+		{
+			"character": "character-1695758163.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Revisé a fondo tu trabajo sobre HTML."
+		},
+		{
+			"character": "character-1695758163.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mi contribución se reflejó en el desarrollo del primer navegador web con soporte para imágenes en línea, llamado Lynx, que influyó en la forma en que se mostraba el contenido HTML."
+		},
+		{
+			"character": "character-1695758163.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Te tengo sugerencias para el desarrollo de HTML5. Para agregar interacción visual, considera utilizar estas etiquetas de control:"
+		},
+		{
+			"character": "character-1695758163.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "<input type=\"range\">: Crea un control deslizante que permite a los usuarios seleccionar un valor dentro de un rango especificado, como para ajustar el volumen o seleccionar un valor numérico."
+		},
+		{
+			"animation": "5-fade_out_down.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1695758163.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"animation": "2-fade_in_up.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1695758906.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "EjemploNPC5-5",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1695758906.json",
+			"event_id": "dialogic_001",
+			"portrait": "EjemploNPC5-5",
+			"text": "Ejemplo de la sintaxis: "
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1695758906.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"animation": "2-fade_in_up.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1695759828.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "ResultadoEjemploNPC5-5",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1695759828.json",
+			"event_id": "dialogic_001",
+			"portrait": "ResultadoEjemploNPC5-5",
+			"text": "Así se presentaría en un navegador web:"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1695759828.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"animation": "2-fade_in_up.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1695758163.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1695758163.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "La siguiente etiqueta es:"
+		},
+		{
+			"character": "character-1695758163.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "<input type=\"color\">: Proporciona un selector de color para que los usuarios elijan un color específico. Puede ser útil en situaciones creativas dentro del juego."
+		},
+		{
+			"animation": "5-fade_out_down.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1695758163.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"animation": "2-fade_in_up.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1695758906.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "EjemploNPC6",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1695758906.json",
+			"event_id": "dialogic_001",
+			"portrait": "EjemploNPC6",
+			"text": "Ejemplo de la sintaxis: "
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1695758906.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"animation": "2-fade_in_up.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1695759828.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "ResultadoEjemploNPC6",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1695759828.json",
+			"event_id": "dialogic_001",
+			"portrait": "ResultadoEjemploNPC6",
+			"text": "Así se presentaría en un navegador web:"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1695759828.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"animation": "2-fade_in_up.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Gracias por tu aporte, lo tendré en cuenta."
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5",
+		"file": "timeline-1695742444.json",
+		"name": "timeline-npc-Lou"
+	}
+}

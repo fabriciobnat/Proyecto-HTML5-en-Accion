@@ -1,0 +1,354 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1695919321.cfg"
+		},
+		{
+			"animation": "2-fade_in_up.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1695919091.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1695919091.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sistema de seguridad 2 "
+		},
+		{
+			"character": "character-1695919091.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Se desbloquea con 3 respuestas correctas."
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "Regresar7"
+		},
+		{
+			"character": "character-1695919091.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Pregunta 1:"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "¿Cuál es la etiqueta HTML5 para insertar un comentario en el código fuente de una página web?"
+		},
+		{
+			"choice": "A) <comment>",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Multimedia/Audios/wrong.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1695919091.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Respuesta incorrecta!"
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "B) <!-- comentario -->",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Multimedia/Audios/effect-success.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1695919091.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Respuesta correcta!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "En HTML5, los comentarios se insertan utilizando la sintaxis <!-- comentario -->. "
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Los comentarios son útiles para agregar notas en el código fuente que no se muestran en la página web final."
+		},
+		{
+			"choice": "C) <note>",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Multimedia/Audios/wrong.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1695919091.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Respuesta incorrecta!"
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1695919091.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Pregunta 2:"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "¿Cuál de los siguientes elementos HTML5 se utiliza principalmente para crear divisiones o contenedores genéricos en una página web?"
+		},
+		{
+			"choice": "A) <hr>",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Multimedia/Audios/wrong.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1695919091.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Respuesta incorrecta!"
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "B) <div>",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Multimedia/Audios/effect-success.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1695919091.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Respuesta correcta!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "El elemento <div> se utiliza para crear divisiones o contenedores genéricos en una página web, lo que facilita la organización y el estilo del contenido."
+		},
+		{
+			"choice": "C) <p>",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Multimedia/Audios/wrong.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1695919091.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Respuesta incorrecta!"
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1695919091.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Pregunta 3:"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "¿Cuál es el propósito principal del atributo alt en el elemento <img> en HTML5?"
+		},
+		{
+			"choice": "A) Especificar el tamaño de la imagen.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Multimedia/Audios/wrong.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1695919091.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Respuesta incorrecta!"
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "B) Proporcionar texto alternativo para describir la imagen.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Multimedia/Audios/effect-success.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1695919091.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Respuesta correcta!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "El atributo alt se utiliza en el elemento <img> para proporcionar texto alternativo. "
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Describe la imagen en caso de que no se pueda mostrar, lo que mejora la accesibilidad y la comprensión del contenido."
+		},
+		{
+			"choice": "C) Definir la posición de la imagen en la página.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Multimedia/Audios/wrong.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1695919091.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Respuesta incorrecta!"
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1695919091.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sistema de seguridad desbloqueado, puedes acceder."
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5",
+		"file": "timeline-1695871060.json",
+		"name": "timeline-npc-AvisoPC2"
+	}
+}

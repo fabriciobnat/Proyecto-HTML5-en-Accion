@@ -1,0 +1,21 @@
+{
+	"color": "#ff32b5ee",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1696301238.json",
+	"mirror_portraits": false,
+	"name": "El Vigilante de la Web",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": -100,
+	"offset_y": -250,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://Multimedia/Personajes/GirlInfofotoperfil.png"
+		}
+	],
+	"scale": 5,
+	"theme": ""
+}

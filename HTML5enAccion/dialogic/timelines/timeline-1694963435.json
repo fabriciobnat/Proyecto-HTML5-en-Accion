@@ -1,0 +1,57 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1693322419.cfg"
+		},
+		{
+			"animation": "2-fade_in_up.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "PC_casa_Tim",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_001",
+			"portrait": "PC_casa_Tim",
+			"text": "Quien entró a mi casa encriptó los datos de mis investigaciones sobre HTML5 que he estado realizando"
+		},
+		{
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "Sin embargo, dejó una huella de información que debo rastrear."
+		},
+		{
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "Es hora de salir a la ciudad en busca de la información para poder continuar con mis estudios."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "Tim_person_papers",
+			"text": "Regresa aquí cuando hayas encontrado toda la información :)"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5",
+		"file": "timeline-1694963435.json",
+		"name": "timeline-avisoPc"
+	}
+}

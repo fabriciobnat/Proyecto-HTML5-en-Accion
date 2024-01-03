@@ -1,0 +1,167 @@
+{
+	"events": [
+		{
+			"background": "res://Multimedia/Imagenes/city2.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1691683467.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1691683467.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Saludos, apreciado lector! Soy Tim Berners-Lee, el creador de la World Wide Web, y estoy emocionado de estar aquí para presentarles algo especial. Hoy, quiero llevarlos a un viaje único donde podrán explorar y aprender sobre una de mis creaciones más emocionantes: HTML5."
+		},
+		{
+			"character": "character-1691683467.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "En medio de la fascinante historia de HTML5, surge un momento crucial que requiere tu participación. Imagina que te encuentras en un cruce de caminos en la narrativa, donde tu elección determinará el rumbo de nuestra historia."
+		},
+		{
+			"character": "character-1691683467.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Te encuentras en la piel de un joven desarrollador, listo para embarcarte en un emocionante proyecto web. Sin embargo, enfrentas una decisión fundamental:"
+		},
+		{
+			"animation": "5-fade_out_down.gd",
+			"animation_length": 1,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1691683467.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Antes de continuar, permítame hacerle una pregunta: ¿tiene experiencia previa en HTML5 o está comenzando como aprendiz en HTML5?"
+		},
+		{
+			"choice": "Experiencia previa en HTML5",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1691683467.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1691683467.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Si se consideran con experiencia previa en HTML5, entonces está listos para un desafío más allá del código. Prepárense para embarcarse en un emocionante videojuego de aprendizaje, donde sus habilidades en HTML5 se fortalecerán aún más."
+		},
+		{
+			"character": "character-1691683467.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Bienvenido a esta emocionante travesía, donde cada línea de código es una oportunidad para crear mundos digitales asombrosos!"
+		},
+		{
+			"change_scene": "res://Escenas/Mundos/CuartoInicio.tscn",
+			"event_id": "dialogic_041"
+		},
+		{
+			"choice": "Aprendiz en HTML5",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1691694393.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1691694393.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Si te sientes más como un Aprendiz, estás por emprender un viaje fascinante. Permíteme llevarte atrás en el tiempo, cuando HTML5 aún no había surgido. "
+		},
+		{
+			"change_scene": "res://Escenas/Nivel0/Nivel0.tscn",
+			"event_id": "dialogic_041"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5",
+		"file": "timeline-1691683450.json",
+		"name": "InicioDialogo"
+	}
+}

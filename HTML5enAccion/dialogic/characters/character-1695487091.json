@@ -1,0 +1,21 @@
+{
+	"color": "#ff3172b0",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1695487091.json",
+	"mirror_portraits": false,
+	"name": "Rudeus",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": -100,
+	"offset_y": -200,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://Multimedia/Personajes/Rudeusfotoperfil.png"
+		}
+	],
+	"scale": 5,
+	"theme": ""
+}

@@ -1,0 +1,21 @@
+{
+	"color": "#ffad7777",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1695954188.json",
+	"mirror_portraits": false,
+	"name": "Herrero",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": -100,
+	"offset_y": -250,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://Multimedia/Iconos/Herrero_icon1.png"
+		}
+	],
+	"scale": 300,
+	"theme": ""
+}

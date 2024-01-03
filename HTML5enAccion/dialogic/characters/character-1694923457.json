@@ -1,0 +1,145 @@
+{
+	"color": "#ff366333",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1694923457.json",
+	"mirror_portraits": false,
+	"name": "PC2",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": -100,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://Multimedia/Imagenes/FondosPCs/PantallasPC.png"
+		},
+		{
+			"name": "pc2",
+			"path": "res://Multimedia/Imagenes/FondosPCs/PresentacionPC1/pc1.png"
+		},
+		{
+			"name": "pc2-1",
+			"path": "res://Multimedia/Imagenes/FondosPCs/PresentacionPC1/pc1-1.png"
+		},
+		{
+			"name": "pc2-2",
+			"path": "res://Multimedia/Imagenes/FondosPCs/PresentacionPC1/pc1-2.png"
+		},
+		{
+			"name": "pc2-3",
+			"path": "res://Multimedia/Imagenes/FondosPCs/PresentacionPC1/pc1-3.png"
+		},
+		{
+			"name": "pc2-4",
+			"path": "res://Multimedia/Imagenes/FondosPCs/PresentacionPC1/pc1-4.png"
+		},
+		{
+			"name": "PantallasPC_Cuarto1",
+			"path": "res://Multimedia/Imagenes/FondosPCs/PantallasPC_Cuarto1.png"
+		},
+		{
+			"name": "Cuarto1pc-2-1",
+			"path": "res://Multimedia/Imagenes/FondosPCs/CONTENIDO_HTML5/Tema2T_TiposdeDocumentos/1.png"
+		},
+		{
+			"name": "Cuarto1pc-2-2",
+			"path": "res://Multimedia/Imagenes/FondosPCs/CONTENIDO_HTML5/Tema2T_TiposdeDocumentos/2.png"
+		},
+		{
+			"name": "PantallasPC_Cuarto2",
+			"path": "res://Multimedia/Imagenes/FondosPCs/PantallasPC_Cuarto2.png"
+		},
+		{
+			"name": "Cuarto2pc-2-1",
+			"path": "res://Multimedia/Imagenes/FondosPCs/CONTENIDO_HTML5/Tema6T_Listas/1.png"
+		},
+		{
+			"name": "Cuarto2pc-2-2",
+			"path": "res://Multimedia/Imagenes/FondosPCs/CONTENIDO_HTML5/Tema6T_Listas/2.png"
+		},
+		{
+			"name": "Cuarto2pc-2-3",
+			"path": "res://Multimedia/Imagenes/FondosPCs/CONTENIDO_HTML5/Tema6T_Listas/3.png"
+		},
+		{
+			"name": "Cuarto2pc-2-4",
+			"path": "res://Multimedia/Imagenes/FondosPCs/CONTENIDO_HTML5/Tema6T_Listas/4.png"
+		},
+		{
+			"name": "Cuarto2pc-2-5",
+			"path": "res://Multimedia/Imagenes/FondosPCs/CONTENIDO_HTML5/Tema6T_Listas/5.png"
+		},
+		{
+			"name": "Cuarto2pc-2-6",
+			"path": "res://Multimedia/Imagenes/FondosPCs/CONTENIDO_HTML5/Tema6T_Listas/6.png"
+		},
+		{
+			"name": "Cuarto2pc-2-7",
+			"path": "res://Multimedia/Imagenes/FondosPCs/CONTENIDO_HTML5/Tema6T_Listas/7.png"
+		},
+		{
+			"name": "Cuarto2pc-2-8",
+			"path": "res://Multimedia/Imagenes/FondosPCs/CONTENIDO_HTML5/Tema6T_Listas/8.png"
+		},
+		{
+			"name": "PantallasPC_Cuarto3",
+			"path": "res://Multimedia/Imagenes/FondosPCs/PantallasPC_Cuarto3.png"
+		},
+		{
+			"name": "Cuarto3pc-2-1",
+			"path": "res://Multimedia/Imagenes/FondosPCs/CONTENIDO_HTML5/Tema10T_Divisores/1.png"
+		},
+		{
+			"name": "Cuarto3pc-2-2",
+			"path": "res://Multimedia/Imagenes/FondosPCs/CONTENIDO_HTML5/Tema10T_Divisores/2.png"
+		},
+		{
+			"name": "Cuarto3pc-2-3",
+			"path": "res://Multimedia/Imagenes/FondosPCs/CONTENIDO_HTML5/Tema10T_Divisores/3.png"
+		},
+		{
+			"name": "Cuarto3pc-2-4",
+			"path": "res://Multimedia/Imagenes/FondosPCs/CONTENIDO_HTML5/Tema10T_Divisores/4.png"
+		},
+		{
+			"name": "PantallasPC_Cuarto4",
+			"path": "res://Multimedia/Imagenes/FondosPCs/PantallasPC_Cuarto4.png"
+		},
+		{
+			"name": "Cuarto4pc-2-1",
+			"path": "res://Multimedia/Imagenes/FondosPCs/CONTENIDO_HTML5/Tema14T_Formularios/1.png"
+		},
+		{
+			"name": "Cuarto4pc-2-2",
+			"path": "res://Multimedia/Imagenes/FondosPCs/CONTENIDO_HTML5/Tema14T_Formularios/2.png"
+		},
+		{
+			"name": "Cuarto4pc-2-3",
+			"path": "res://Multimedia/Imagenes/FondosPCs/CONTENIDO_HTML5/Tema14T_Formularios/3.png"
+		},
+		{
+			"name": "Cuarto4pc-2-4",
+			"path": "res://Multimedia/Imagenes/FondosPCs/CONTENIDO_HTML5/Tema14T_Formularios/4.png"
+		},
+		{
+			"name": "Cuarto4pc-2-5",
+			"path": "res://Multimedia/Imagenes/FondosPCs/CONTENIDO_HTML5/Tema14T_Formularios/5.png"
+		},
+		{
+			"name": "Cuarto4pc-2-6",
+			"path": "res://Multimedia/Imagenes/FondosPCs/CONTENIDO_HTML5/Tema14T_Formularios/6.png"
+		},
+		{
+			"name": "Cuarto4pc-2-7",
+			"path": "res://Multimedia/Imagenes/FondosPCs/CONTENIDO_HTML5/Tema14T_Formularios/7.png"
+		},
+		{
+			"name": "Cuarto4pc-2-8",
+			"path": "res://Multimedia/Imagenes/FondosPCs/CONTENIDO_HTML5/Tema14T_Formularios/8.png"
+		}
+	],
+	"scale": 50,
+	"theme": ""
+}

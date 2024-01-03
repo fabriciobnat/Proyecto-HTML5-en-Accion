@@ -1,0 +1,172 @@
+[gd_scene load_steps=13 format=2]
+
+[ext_resource path="res://Multimedia/Botones/play.png" type="Texture" id=1]
+[ext_resource path="res://Multimedia/Fuentes/NormalFont.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://Multimedia/Botones/pause.png" type="Texture" id=3]
+[ext_resource path="res://Multimedia/Botones/regresar.png" type="Texture" id=4]
+[ext_resource path="res://Multimedia/Botones/volumen.png" type="Texture" id=5]
+[ext_resource path="res://Scripts/MenudePause.gd" type="Script" id=6]
+[ext_resource path="res://Multimedia/Audios/pause.wav" type="AudioStream" id=7]
+
+[sub_resource type="DynamicFont" id=4]
+size = 50
+outline_size = 1
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 2 )
+
+[sub_resource type="StyleBoxLine" id=9]
+color = Color( 0, 0.207843, 0.466667, 1 )
+thickness = 10
+
+[sub_resource type="Theme" id=7]
+HSlider/styles/slider = SubResource( 9 )
+
+[sub_resource type="DynamicFont" id=3]
+outline_size = 1
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 2 )
+
+[sub_resource type="DynamicFont" id=5]
+size = 30
+outline_size = 1
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 2 )
+
+[node name="MunudePause" type="Node2D"]
+pause_mode = 2
+script = ExtResource( 6 )
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+visible = false
+
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -272.0
+margin_top = -162.0
+margin_right = 272.0
+margin_bottom = 162.0
+rect_min_size = Vector2( 544, 300 )
+alignment = 1
+
+[node name="btn_regresar" type="Button" parent="CanvasLayer/VBoxContainer"]
+pause_mode = 2
+margin_top = 80.0
+margin_right = 544.0
+margin_bottom = 160.0
+rect_min_size = Vector2( 300, 80 )
+focus_mode = 0
+mouse_default_cursor_shape = 2
+custom_colors/font_color_hover = Color( 0.820313, 0.547968, 0.028038, 1 )
+custom_colors/font_color_pressed = Color( 0.820313, 0.547968, 0.028038, 1 )
+custom_fonts/font = SubResource( 4 )
+enabled_focus_mode = 0
+text = "REGRESAR"
+icon = ExtResource( 1 )
+flat = true
+icon_align = 2
+expand_icon = true
+
+[node name="btn_salir" type="Button" parent="CanvasLayer/VBoxContainer"]
+pause_mode = 2
+margin_top = 164.0
+margin_right = 544.0
+margin_bottom = 244.0
+rect_min_size = Vector2( 300, 80 )
+focus_mode = 0
+mouse_default_cursor_shape = 2
+custom_colors/font_color_hover = Color( 0.960784, 0.27451, 0.054902, 1 )
+custom_colors/font_color_pressed = Color( 0.960784, 0.27451, 0.054902, 1 )
+custom_fonts/font = SubResource( 4 )
+enabled_focus_mode = 0
+text = "SALIR"
+icon = ExtResource( 4 )
+flat = true
+icon_align = 2
+expand_icon = true
+
+[node name="Control" type="Control" parent="CanvasLayer"]
+anchor_left = 1.0
+anchor_top = 0.12
+anchor_right = 1.0
+anchor_bottom = 0.12
+margin_left = -357.0
+margin_top = -77.76
+margin_bottom = 78.24
+
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer/Control"]
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+margin_left = -179.0
+margin_top = -63.0
+margin_right = -103.0
+margin_bottom = 13.0
+texture = ExtResource( 5 )
+expand = true
+stretch_mode = 1
+
+[node name="HSlider" type="HSlider" parent="CanvasLayer/Control"]
+pause_mode = 2
+anchor_left = 1.0
+anchor_top = 0.797
+anchor_right = 1.0
+anchor_bottom = 0.797
+margin_left = -239.0
+margin_top = -9.33201
+margin_right = -34.0001
+margin_bottom = 6.66799
+mouse_default_cursor_shape = 2
+theme = SubResource( 7 )
+min_value = -30.0
+max_value = 0.0
+
+[node name="Label" type="Label" parent="CanvasLayer/Control"]
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -174.0
+margin_top = -15.0
+margin_right = -81.0
+margin_bottom = 7.0
+custom_fonts/font = SubResource( 3 )
+text = "VOLUMEN"
+
+[node name="TextureRect2" type="TextureRect" parent="CanvasLayer"]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -38.0
+margin_top = 11.0
+margin_right = 38.0
+margin_bottom = 83.0
+texture = ExtResource( 3 )
+expand = true
+
+[node name="Label" type="Label" parent="CanvasLayer/TextureRect2"]
+anchor_left = 0.5
+anchor_top = 0.819
+anchor_right = 0.5
+anchor_bottom = 0.819
+margin_left = -57.0
+margin_top = 13.032
+margin_right = 58.0
+margin_bottom = 54.032
+custom_fonts/font = SubResource( 5 )
+text = "PAUSE"
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="CanvasLayer"]
+pause_mode = 2
+stream = ExtResource( 7 )
+volume_db = -10.0
+
+[connection signal="pressed" from="CanvasLayer/VBoxContainer/btn_regresar" to="." method="_on_btn_regresar_pressed"]
+[connection signal="pressed" from="CanvasLayer/VBoxContainer/btn_salir" to="." method="_on_btn_salir_pressed"]
+[connection signal="value_changed" from="CanvasLayer/Control/HSlider" to="." method="_on_HSlider_value_changed"]

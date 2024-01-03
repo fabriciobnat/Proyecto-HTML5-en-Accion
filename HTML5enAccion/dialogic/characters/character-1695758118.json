@@ -1,0 +1,21 @@
+{
+	"color": "#ffc7df3a",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1695758118.json",
+	"mirror_portraits": false,
+	"name": "Alain Desilets",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": -100,
+	"offset_y": -250,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://Multimedia/Personajes/AlainDesiletsfotoperfil.png"
+		}
+	],
+	"scale": 5,
+	"theme": ""
+}

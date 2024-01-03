@@ -1,0 +1,169 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1692803193.cfg"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1694734596.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1694734596.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Escritorio"
+		},
+		{
+			"animation": "2-fade_in_up.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1694734596.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "pc3",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1694734596.json",
+			"event_id": "dialogic_001",
+			"portrait": "pc3",
+			"text": "Contenido..."
+		},
+		{
+			"animation": "2-fade_in_up.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1694734596.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "pc3-1",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1694734596.json",
+			"event_id": "dialogic_001",
+			"portrait": "pc3-1",
+			"text": "Contenido..."
+		},
+		{
+			"animation": "2-fade_in_up.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1694734596.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "pc3-2",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1694734596.json",
+			"event_id": "dialogic_001",
+			"portrait": "pc3-2",
+			"text": "Contenido..."
+		},
+		{
+			"animation": "2-fade_in_up.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1694734596.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "pc3-3",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1694734596.json",
+			"event_id": "dialogic_001",
+			"portrait": "pc3-3",
+			"text": "Contenido..."
+		},
+		{
+			"animation": "2-fade_in_up.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1694734596.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "pc3-4",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1694734596.json",
+			"event_id": "dialogic_001",
+			"portrait": "pc3-4",
+			"text": "Al parecer no hay más contenido en esta computadora."
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5",
+		"file": "timeline-1692673243.json",
+		"name": "timeline-pc2"
+	}
+}

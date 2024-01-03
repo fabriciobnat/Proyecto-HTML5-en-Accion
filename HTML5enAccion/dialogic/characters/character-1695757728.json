@@ -1,0 +1,21 @@
+{
+	"color": "#ff39cb30",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1695757728.json",
+	"mirror_portraits": false,
+	"name": "Dan Connolly",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": -100,
+	"offset_y": -250,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://Multimedia/Personajes/DanConnollyfotoperfil.png"
+		}
+	],
+	"scale": 5,
+	"theme": ""
+}

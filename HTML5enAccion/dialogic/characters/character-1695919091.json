@@ -1,0 +1,21 @@
+{
+	"color": "#fff5460e",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1695919091.json",
+	"mirror_portraits": false,
+	"name": "Sistema de seguridad",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": -100,
+	"offset_y": -250,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://Multimedia/Iconos/Avisos.png"
+		}
+	],
+	"scale": 800,
+	"theme": ""
+}

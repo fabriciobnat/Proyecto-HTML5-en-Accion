@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://addons/dialogic/Dialog.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Multimedia/Audios/A-Lonely-Cherry-Tree.wav" type="AudioStream" id=2]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Dialog" parent="." instance=ExtResource( 1 )]
+margin_left = 494.0
+margin_top = 312.0
+margin_right = 494.0
+margin_bottom = 312.0
+timeline = "timeline-1691683450.json"
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 2 )
+autoplay = true

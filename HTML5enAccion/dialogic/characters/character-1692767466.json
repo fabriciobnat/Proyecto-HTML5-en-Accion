@@ -1,0 +1,21 @@
+{
+	"color": "#ff12eef3",
+	"description": "",
+	"display_name": "Robert Cailliau",
+	"display_name_bool": true,
+	"id": "character-1692767466.json",
+	"mirror_portraits": false,
+	"name": "Robert Cailliau",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": -100,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://Multimedia/Imagenes/Robert-Cailliau.png"
+		}
+	],
+	"scale": 70,
+	"theme": ""
+}

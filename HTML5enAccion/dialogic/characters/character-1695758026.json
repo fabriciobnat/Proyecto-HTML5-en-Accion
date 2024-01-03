@@ -1,0 +1,21 @@
+{
+	"color": "#ff3b02b7",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1695758026.json",
+	"mirror_portraits": false,
+	"name": "Marc Andreessen",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": -100,
+	"offset_y": -250,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://Multimedia/Personajes/MarcAndreessenfotoperfil.png"
+		}
+	],
+	"scale": 5,
+	"theme": ""
+}

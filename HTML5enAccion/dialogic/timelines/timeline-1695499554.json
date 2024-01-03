@@ -1,0 +1,345 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1695488777.cfg"
+		},
+		{
+			"animation": "2-fade_in_up.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1695487091.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1695487091.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": " ¡Saludos una vez más, Tim Berners-Lee! Felicidades por llegar hasta aquí. "
+		},
+		{
+			"character": "character-1695487091.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Parece que nuestro camino se cruza nuevamente en esta segunda puerta mágica. Antes de permitirte el acceso, debes responder a dos preguntas."
+		},
+		{
+			"animation": "5-fade_out_down.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1695487091.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"animation": "2-fade_in_up.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Estoy listo, Rudeus. Adelante, haz tus preguntas."
+		},
+		{
+			"animation": "5-fade_out_down.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"animation": "2-fade_in_up.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1695487091.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "Regresar3"
+		},
+		{
+			"character": "character-1695487091.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Muy bien, la primera pregunta es:"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "¿Cuál es el elemento principal utilizado para crear una tabla en HTML5?"
+		},
+		{
+			"choice": "A) <table>",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Multimedia/Audios/effect-success.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1695487091.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "La respuesta es correcta!"
+		},
+		{
+			"character": "character-1695487091.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "El elemento <table> se utiliza para crear una tabla en HTML5. "
+		},
+		{
+			"character": "character-1695487091.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Las tablas están compuestas por filas <tr> y celdas de datos <td> o encabezados de columna <th>."
+		},
+		{
+			"choice": "B) <tr>",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Multimedia/Audios/wrong.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1695487091.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "La respuesta es incorrecta!"
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "C) <td>",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Multimedia/Audios/wrong.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1695487091.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "La respuesta es incorrecta!"
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1695487091.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Muy bien, la segunda pregunta es:"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "¿Cuál es el atributo utilizado en un elemento <a> para especificar la dirección URL a la que debe enlazar?"
+		},
+		{
+			"choice": "A) src",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Multimedia/Audios/wrong.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1695487091.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "La respuesta es incorrecta!"
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "B) link",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Multimedia/Audios/wrong.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1695487091.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "La respuesta es incorrecta!"
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "C) href",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Multimedia/Audios/effect-success.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1695487091.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "La respuesta es correcta!"
+		},
+		{
+			"character": "character-1695487091.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "El atributo href (hipertext reference) se utiliza en un elemento <a> para especificar la dirección URL a la que debe enlazar el hipervínculo."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1695487091.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": " ¡Excelente, Tim Berners-Lee!"
+		},
+		{
+			"character": "character-1695487091.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Has demostrado tu conocimiento en este lugar. Puedes continuar hacia la próxima puerta mágica. Que la magia te guíe en tu aventura."
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5",
+		"file": "timeline-1695499554.json",
+		"name": "timeline-npc-DesafioMago2"
+	}
+}

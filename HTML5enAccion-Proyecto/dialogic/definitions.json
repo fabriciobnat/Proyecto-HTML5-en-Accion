@@ -1,0 +1,76 @@
+{
+	"glossary": [
+		{
+			"extra": "",
+			"id": "1707442076-785",
+			"name": "New glossary entry",
+			"text": "",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1707442076-842",
+			"name": "New glossary entry",
+			"text": "",
+			"title": "",
+			"type": 1
+		}
+	],
+	"variables": [
+		{
+			"id": "1707441715-648",
+			"name": "New value",
+			"type": 0,
+			"value": ""
+		},
+		{
+			"id": "1707441720-787",
+			"name": "New value",
+			"type": 0,
+			"value": ""
+		},
+		{
+			"id": "1707441726-366",
+			"name": "New value",
+			"type": 0,
+			"value": ""
+		},
+		{
+			"id": "1707441727-146",
+			"name": "New value",
+			"type": 0,
+			"value": ""
+		},
+		{
+			"id": "1707441785-918",
+			"name": "New value",
+			"type": 0,
+			"value": ""
+		},
+		{
+			"id": "1707442066-483",
+			"name": "New value",
+			"type": 0,
+			"value": ""
+		},
+		{
+			"id": "1707442067-970",
+			"name": "New value",
+			"type": 0,
+			"value": ""
+		},
+		{
+			"id": "1707442072-713",
+			"name": "New value",
+			"type": 0,
+			"value": ""
+		},
+		{
+			"id": "1707442073-339",
+			"name": "New value",
+			"type": 0,
+			"value": ""
+		}
+	]
+}

@@ -1,0 +1,409 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1695488777.cfg"
+		},
+		{
+			"animation": "2-fade_in_up.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "PC_casa_Tim",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_001",
+			"portrait": "PC_casa_Tim",
+			"text": "Antes de poder obtener el diskette deberás responder las siguientes preguntas."
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1707434903",
+			"index": 0,
+			"name": "Regresar"
+		},
+		{
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_001",
+			"portrait": "PC_casa_Tim",
+			"text": "Pregunta 1:"
+		},
+		{
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "PC_casa_Tim",
+			"question": "¿Quién es ampliamente reconocido como el creador del lenguaje HTML?"
+		},
+		{
+			"choice": "A) Tim Cook",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Multimedia/Audios/wrong.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_001",
+			"portrait": "Tim_person_papers",
+			"text": "Respuesta incorrecta!"
+		},
+		{
+			"anchor_id": "anchor-1707434903",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "B) Tim Berners-Lee",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Multimedia/Audios/effect-success.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Respuesta correcta!"
+		},
+		{
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_001",
+			"portrait": "PC_casa_Tim",
+			"text": "Tim Berners-Lee es ampliamente reconocido como el creador del lenguaje HTML. En 1989, Berners-Lee desarrolló el HTML mientras trabajaba en el CERN, y publicó la primera especificación de HTML en 1991."
+		},
+		{
+			"choice": "C) Steve Jobs",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Multimedia/Audios/wrong.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_001",
+			"portrait": "Tim_person_papers",
+			"text": "Respuesta incorrecta!"
+		},
+		{
+			"anchor_id": "anchor-1707434903",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "D) Bill Gates",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Multimedia/Audios/wrong.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_001",
+			"portrait": "Tim_person_papers",
+			"text": "Respuesta incorrecta!"
+		},
+		{
+			"anchor_id": "anchor-1707434903",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_001",
+			"portrait": "PC_casa_Tim",
+			"text": "Pregunta 2:"
+		},
+		{
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "PC_casa_Tim",
+			"question": "¿Cuál de los siguientes elementos HTML se utiliza para representar el encabezado de mayor nivel?"
+		},
+		{
+			"choice": "A) <h1>",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Multimedia/Audios/effect-success.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Respuesta correcta!"
+		},
+		{
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_001",
+			"portrait": "PC_casa_Tim",
+			"text": "El elemento <h1> se utiliza para representar el encabezado de mayor nivel en HTML, es decir, el encabezado principal de una sección o página."
+		},
+		{
+			"choice": "B) <h2>",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Multimedia/Audios/wrong.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_001",
+			"portrait": "Tim_person_papers",
+			"text": "Respuesta incorrecta!"
+		},
+		{
+			"anchor_id": "anchor-1707434903",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "C) <h3>",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Multimedia/Audios/wrong.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_001",
+			"portrait": "Tim_person_papers",
+			"text": "Respuesta incorrecta!"
+		},
+		{
+			"anchor_id": "anchor-1707434903",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "D) <h6>",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Multimedia/Audios/wrong.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_001",
+			"portrait": "Tim_person_papers",
+			"text": "Respuesta incorrecta!"
+		},
+		{
+			"anchor_id": "anchor-1707434903",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_001",
+			"portrait": "PC_casa_Tim",
+			"text": "Pregunta 3:"
+		},
+		{
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "PC_casa_Tim",
+			"question": "¿Qué significan las siglas \"HTML\"?"
+		},
+		{
+			"choice": "A) Hyperlink Text Markup Language",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Multimedia/Audios/wrong.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_001",
+			"portrait": "Tim_person_papers",
+			"text": "Respuesta incorrecta!"
+		},
+		{
+			"anchor_id": "anchor-1707434903",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "B) High Technology Markup Language",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Multimedia/Audios/wrong.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_001",
+			"portrait": "Tim_person_papers",
+			"text": "Respuesta incorrecta!"
+		},
+		{
+			"anchor_id": "anchor-1707434903",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "C) Home Tool Markup Language",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Multimedia/Audios/wrong.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_001",
+			"portrait": "Tim_person_papers",
+			"text": "Respuesta incorrecta!"
+		},
+		{
+			"anchor_id": "anchor-1707434903",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "D) Hyper Text Markup Language",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Multimedia/Audios/effect-success.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Respuesta correcta!"
+		},
+		{
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_001",
+			"portrait": "PC_casa_Tim",
+			"text": "HTML significa \"Hyper Text Markup Language\" en inglés, y se refiere al lenguaje utilizado para crear páginas web mediante marcado de texto."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5",
+		"file": "timeline-1707432218.json",
+		"name": "timeline-quiz-disk"
+	}
+}

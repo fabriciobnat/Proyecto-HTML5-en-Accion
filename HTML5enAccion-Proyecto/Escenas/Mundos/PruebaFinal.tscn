@@ -1,0 +1,270 @@
+[gd_scene load_steps=21 format=2]
+
+[ext_resource path="res://Multimedia/Imagenes/FondosPCs/PantallasPC.png" type="Texture" id=1]
+[ext_resource path="res://Scripts/Mundos0/PruebaFinal.gd" type="Script" id=2]
+[ext_resource path="res://Multimedia/Fuentes/Oswald-Medium.ttf" type="DynamicFontData" id=3]
+[ext_resource path="res://Multimedia/Fuentes/Kenney Pixel.ttf" type="DynamicFontData" id=4]
+[ext_resource path="res://Multimedia/Botones/Reset.png" type="Texture" id=5]
+[ext_resource path="res://Multimedia/Botones/next.png" type="Texture" id=6]
+[ext_resource path="res://Multimedia/Audios/wrong.wav" type="AudioStream" id=8]
+[ext_resource path="res://Multimedia/Audios/effect-success.wav" type="AudioStream" id=9]
+[ext_resource path="res://Multimedia/Audios/Pix-Space-travel.wav" type="AudioStream" id=10]
+[ext_resource path="res://Multimedia/Fuentes/Oswald-Bold.ttf" type="DynamicFontData" id=12]
+
+[sub_resource type="DynamicFont" id=1]
+size = 29
+outline_size = 1
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 12 )
+
+[sub_resource type="Theme" id=12]
+TextEdit/fonts/font = null
+
+[sub_resource type="DynamicFont" id=11]
+font_data = ExtResource( 12 )
+
+[sub_resource type="DynamicFont" id=3]
+size = 40
+outline_size = 1
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 4 )
+
+[sub_resource type="DynamicFont" id=4]
+size = 40
+outline_size = 1
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 4 )
+
+[sub_resource type="DynamicFont" id=10]
+font_data = ExtResource( 3 )
+
+[sub_resource type="StyleBoxFlat" id=8]
+bg_color = Color( 0.0588235, 0.0823529, 0.141176, 1 )
+
+[sub_resource type="Theme" id=9]
+TextEdit/fonts/font = SubResource( 10 )
+TextEdit/styles/normal = SubResource( 8 )
+
+[sub_resource type="DynamicFont" id=5]
+size = 40
+font_data = ExtResource( 4 )
+
+[sub_resource type="DynamicFont" id=6]
+size = 40
+font_data = ExtResource( 4 )
+
+[node name="PruebaFinal" type="Control"]
+pause_mode = 2
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 2 )
+
+[node name="TextureRect" type="TextureRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = ExtResource( 1 )
+expand = true
+stretch_mode = 1
+
+[node name="DatosLabel" type="Label" parent="."]
+anchor_left = 0.061
+anchor_top = 0.387
+anchor_right = 0.932
+anchor_bottom = 0.455
+margin_left = -7.272
+margin_top = 0.223984
+margin_right = 0.335938
+margin_bottom = 0.160004
+custom_fonts/font = SubResource( 1 )
+text = "Ingrese su nombre:"
+align = 1
+valign = 1
+autowrap = true
+
+[node name="NameTextEdit" type="TextEdit" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -143.0
+margin_top = -17.0
+margin_right = 143.0
+margin_bottom = 21.0
+size_flags_horizontal = 5
+size_flags_vertical = 5
+theme = SubResource( 12 )
+custom_fonts/font = SubResource( 11 )
+highlight_current_line = true
+show_line_numbers = true
+
+[node name="QuestionLabel" type="Label" parent="."]
+anchor_left = 0.061
+anchor_top = 0.082
+anchor_right = 0.938
+anchor_bottom = 0.15
+margin_left = -0.272003
+margin_top = -0.136002
+margin_right = 0.42395
+margin_bottom = -0.200005
+custom_fonts/font = SubResource( 1 )
+text = "Preguntas"
+align = 1
+valign = 1
+autowrap = true
+
+[node name="MessageLabel" type="Label" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -522.0
+margin_top = -180.0
+margin_right = 522.0
+margin_bottom = -95.0
+custom_fonts/font = SubResource( 3 )
+text = "
+"
+align = 1
+valign = 1
+uppercase = true
+
+[node name="OptionsLabel" type="Label" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -511.0
+margin_top = -118.0
+margin_right = -162.0
+margin_bottom = 119.0
+custom_fonts/font = SubResource( 4 )
+align = 1
+valign = 1
+autowrap = true
+uppercase = true
+
+[node name="AnswerTextEdit" type="TextEdit" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -144.5
+margin_top = -19.5
+margin_right = 144.5
+margin_bottom = 19.5
+theme = SubResource( 9 )
+show_line_numbers = true
+draw_spaces = true
+
+[node name="NextButton" type="Button" parent="."]
+anchor_top = 0.762
+anchor_bottom = 0.762
+margin_left = 76.0
+margin_top = -39.776
+margin_right = 289.0
+margin_bottom = 35.224
+focus_mode = 0
+mouse_default_cursor_shape = 2
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_colors/font_color_hover = Color( 1, 1, 1, 1 )
+custom_colors/font_color_pressed = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 5 )
+enabled_focus_mode = 0
+text = "Siguiente"
+icon = ExtResource( 6 )
+flat = true
+icon_align = 1
+expand_icon = true
+
+[node name="IniciarButton" type="Button" parent="."]
+anchor_top = 0.762
+anchor_bottom = 0.762
+margin_left = 76.0
+margin_top = -39.776
+margin_right = 289.0
+margin_bottom = 35.224
+focus_mode = 0
+mouse_default_cursor_shape = 2
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_colors/font_color_hover = Color( 1, 1, 1, 1 )
+custom_colors/font_color_pressed = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 5 )
+enabled_focus_mode = 0
+text = "Iniciar"
+icon = ExtResource( 6 )
+flat = true
+icon_align = 1
+expand_icon = true
+
+[node name="RestartButton" type="Button" parent="."]
+anchor_left = 1.0
+anchor_top = 0.761
+anchor_right = 1.0
+anchor_bottom = 0.761
+margin_left = -285.0
+margin_top = -48.128
+margin_right = -79.0
+margin_bottom = 43.872
+focus_mode = 0
+mouse_default_cursor_shape = 2
+custom_colors/font_color_hover = Color( 0.820313, 0.547968, 0.028038, 1 )
+custom_colors/font_color_pressed = Color( 0.820313, 0.547968, 0.028038, 1 )
+custom_fonts/font = SubResource( 6 )
+enabled_focus_mode = 0
+text = "Reiniciar"
+icon = ExtResource( 5 )
+flat = true
+icon_align = 1
+expand_icon = true
+
+[node name="FinishButton" type="Button" parent="."]
+visible = false
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+margin_left = -105.0
+margin_top = -194.0
+margin_right = 108.0
+margin_bottom = -119.0
+focus_mode = 0
+mouse_default_cursor_shape = 2
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_colors/font_color_hover = Color( 1, 1, 1, 1 )
+custom_colors/font_color_pressed = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 5 )
+enabled_focus_mode = 0
+text = "Finalizar"
+icon = ExtResource( 6 )
+flat = true
+icon_align = 1
+expand_icon = true
+
+[node name="TiempoLabel" type="Label" parent="."]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -185.0
+margin_right = 192.0
+margin_bottom = 34.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+align = 1
+valign = 1
+
+[node name="AudioSucces" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 9 )
+
+[node name="AudioWrong" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 8 )
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 10 )
+autoplay = true
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+
+[connection signal="text_changed" from="NameTextEdit" to="." method="_on_NameTextEdit_text_changed"]
+[connection signal="text_changed" from="AnswerTextEdit" to="." method="_on_AnswerTextEdit_text_changed"]
+[connection signal="pressed" from="NextButton" to="." method="_on_NextButton_pressed"]
+[connection signal="pressed" from="IniciarButton" to="." method="_on_IniciarButton_pressed"]
+[connection signal="pressed" from="RestartButton" to="." method="_on_RestartButton_pressed"]
+[connection signal="pressed" from="FinishButton" to="." method="_on_FinishButton_pressed"]

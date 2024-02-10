@@ -1,0 +1,384 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1695488777.cfg"
+		},
+		{
+			"animation": "2-fade_in_up.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "PC_casa_Tim",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_001",
+			"portrait": "PC_casa_Tim",
+			"text": "Antes de poder obtener el diskette deberás responder las siguientes preguntas."
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1707442898",
+			"index": 0,
+			"name": "Regresar3"
+		},
+		{
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_001",
+			"portrait": "PC_casa_Tim",
+			"text": "Pregunta 1:"
+		},
+		{
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "PC_casa_Tim",
+			"question": "¿Cuál de los siguientes elementos HTML se utiliza para crear un campo de entrada de texto en un formulario?"
+		},
+		{
+			"choice": "A) <input type=\"text\">",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Multimedia/Audios/effect-success.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Respuesta correcta!"
+		},
+		{
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_001",
+			"portrait": "PC_casa_Tim",
+			"text": "El elemento <input> con el atributo type=\"text\" se utiliza para crear un campo de entrada de texto en un formulario HTML."
+		},
+		{
+			"choice": "B) <textarea>",
+			"condition": "!=",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Multimedia/Audios/wrong.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_001",
+			"portrait": "Tim_person_papers",
+			"text": "Respuesta incorrecta!"
+		},
+		{
+			"anchor_id": "anchor-1707442898",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "C) <select>",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Multimedia/Audios/wrong.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_001",
+			"portrait": "Tim_person_papers",
+			"text": "Respuesta incorrecta!"
+		},
+		{
+			"anchor_id": "anchor-1707442898",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "D) <button>",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Multimedia/Audios/wrong.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_001",
+			"portrait": "Tim_person_papers",
+			"text": "Respuesta incorrecta!"
+		},
+		{
+			"anchor_id": "anchor-1707442898",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_001",
+			"portrait": "PC_casa_Tim",
+			"text": "Pregunta 2:"
+		},
+		{
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "PC_casa_Tim",
+			"question": "¿Cuál de los siguientes elementos HTML se utiliza para crear un botón de envío en un formulario?"
+		},
+		{
+			"choice": "A) <submit>",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Multimedia/Audios/wrong.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_001",
+			"portrait": "Tim_person_papers",
+			"text": "Respuesta incorrecta!"
+		},
+		{
+			"anchor_id": "anchor-1707442898",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "B) <button>",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Multimedia/Audios/wrong.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_001",
+			"portrait": "Tim_person_papers",
+			"text": "Respuesta incorrecta!"
+		},
+		{
+			"anchor_id": "anchor-1707442898",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "C) <input type=\"button\">",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Multimedia/Audios/wrong.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_001",
+			"portrait": "Tim_person_papers",
+			"text": "Respuesta incorrecta!"
+		},
+		{
+			"anchor_id": "anchor-1707442898",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "D) <input type=\"submit\">",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Multimedia/Audios/effect-success.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Respuesta correcta!"
+		},
+		{
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_001",
+			"portrait": "PC_casa_Tim",
+			"text": "El elemento <input> con el atributo type=\"submit\" se utiliza para crear un botón de envío en un formulario HTML."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_001",
+			"portrait": "PC_casa_Tim",
+			"text": "Pregunta 3:"
+		},
+		{
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "PC_casa_Tim",
+			"question": "¿Cuál es la forma correcta de cerrar una etiqueta de imagen en HTML5?"
+		},
+		{
+			"choice": "A) <img src=\"imagen.jpg\">",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Multimedia/Audios/wrong.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_001",
+			"portrait": "Tim_person_papers",
+			"text": "Respuesta incorrecta!"
+		},
+		{
+			"anchor_id": "anchor-1707442898",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "B) <img src=\"imagen.jpg\" />",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Multimedia/Audios/effect-success.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Respuesta correcta!"
+		},
+		{
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_001",
+			"portrait": "PC_casa_Tim",
+			"text": "En HTML5, la etiqueta de imagen <img> puede cerrarse usando un slash al final (/>) para indicar que no tiene contenido adicional."
+		},
+		{
+			"choice": "C) <img src=\"imagen.jpg\"></img>",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Multimedia/Audios/wrong.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_001",
+			"portrait": "Tim_person_papers",
+			"text": "Respuesta incorrecta!"
+		},
+		{
+			"anchor_id": "anchor-1707442898",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5",
+		"file": "timeline-1707440962.json",
+		"name": "timeline-quiz-disk3"
+	}
+}

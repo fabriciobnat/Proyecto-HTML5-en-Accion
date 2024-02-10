@@ -1,0 +1,83 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1695488777.cfg"
+		},
+		{
+			"animation": "2-fade_in_up.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "PC_casa_Tim",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_001",
+			"portrait": "PC_casa_Tim",
+			"text": "Esta evaluación tiene un límite de tiempo de 5 minutos. Si no responde dentro de ese período, perderá la evaluación automáticamente."
+		},
+		{
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_001",
+			"portrait": "PC_casa_Tim",
+			"text": "Por favor, asegúrese de que todas las respuestas ingresadas estén en letras minúsculas. Cualquier respuesta en mayúsculas será considerada incorrecta."
+		},
+		{
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_001",
+			"portrait": "PC_casa_Tim",
+			"text": "Revise cuidadosamente el espacio que debe dejar para cada respuesta. Respuestas fuera del espacio asignado serán marcadas como incorrectas."
+		},
+		{
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_001",
+			"portrait": "PC_casa_Tim",
+			"text": "Preste atención a las faltas ortográficas en sus respuestas. Las respuestas con errores ortográficos serán penalizadas."
+		},
+		{
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_001",
+			"portrait": "PC_casa_Tim",
+			"text": "En las preguntas de opción multiple escribe unicamente la letra de la opción que consideres correcta."
+		},
+		{
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_001",
+			"portrait": "PC_casa_Tim",
+			"text": "La evaluación consta de 6 preguntas en total. Para aprobar, debe responder correctamente al menos 5 de las 6 preguntas."
+		},
+		{
+			"character": "character-1693323441.json",
+			"event_id": "dialogic_001",
+			"portrait": "PC_casa_Tim",
+			"text": "Buena suerte! "
+		},
+		{
+			"change_scene": "res://Escenas/Mundos/PruebaFinal.tscn",
+			"event_id": "dialogic_041"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5",
+		"file": "timeline-1696027003.json",
+		"name": "Instrucciones"
+	}
+}
